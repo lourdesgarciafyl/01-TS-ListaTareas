@@ -25,7 +25,3 @@ La aplicación permite al usuario agregar tareas a una lista y borrarlas cuando 
 - `src/components/TodoApp.tsx`: Componente principal de la aplicación.
 - `src/main.tsx`: Punto de entrada de la aplicación.
 - `src/styles.css`: Estilos de la aplicación.
-
-## Conclusión
-
-Este proyecto me permitió entender mejor cómo trabajar con TypeScript en un entorno de React y me dio una base para proyectos futuros más complejos.
