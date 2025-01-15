@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# Lista de Tareas con React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es mi primer proyecto practicando TypeScript. Consiste en una aplicación muy simple para agregar y borrar tareas, pero me sirvió para entender conceptos básicos de TypeScript y React.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La aplicación permite al usuario agregar tareas a una lista y borrarlas cuando ya no sean necesarias. Es una implementación básica que me ayudó a familiarizarme con el uso de TypeScript en un proyecto de React.
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **TypeScript**: Un superconjunto de JavaScript que añade tipos estáticos.
+- **Vite**: Un entorno de desarrollo rápido para proyectos web modernos.
 
-- Configure the top-level `parserOptions` property like this:
+## Cómo Ejecutar el Proyecto
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. Clona el repositorio.
+2. Instala las dependencias con `npm install`.
+3. Ejecuta la aplicación en modo desarrollo con `npm run dev`.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Estructura del Proyecto
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- `src/components/ListaTareas.tsx`: Componente que muestra la lista de tareas.
+- `src/components/Task.tsx`: Componente que representa una tarea individual.
+- `src/components/TodoApp.tsx`: Componente principal de la aplicación.
+- `src/main.tsx`: Punto de entrada de la aplicación.
+- `src/styles.css`: Estilos de la aplicación.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Conclusión
+
+Este proyecto me permitió entender mejor cómo trabajar con TypeScript en un entorno de React y me dio una base para proyectos futuros más complejos.
