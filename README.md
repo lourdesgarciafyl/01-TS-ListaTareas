@@ -2,6 +2,8 @@
 
 Este es mi primer proyecto practicando TypeScript. Consiste en una aplicación muy simple para agregar y borrar tareas, pero me sirvió para entender conceptos básicos de TypeScript y React.
 
+Podés ver la aplicación desplegada [aquí](https://ts-listatareas.netlify.app/).
+
 ## Descripción
 
 La aplicación permite al usuario agregar tareas a una lista y borrarlas cuando ya no sean necesarias. Es una implementación básica que me ayudó a familiarizarme con el uso de TypeScript en un proyecto de React.
